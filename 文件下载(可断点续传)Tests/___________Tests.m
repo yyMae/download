@@ -2,7 +2,7 @@
 //  ___________Tests.m
 //  文件下载(可断点续传)Tests
 //
-//  Created by pxs on 16/1/21.
+//  Created by yyMae on 16/1/21.
 //  Copyright (c) 2016年 yyMae. All rights reserved.
 //
 

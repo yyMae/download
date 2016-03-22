@@ -14,6 +14,8 @@
 		A5B807721C5070CD0052B082 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B807711C5070CD0052B082 /* Images.xcassets */; };
 		A5B807751C5070CD0052B082 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B807731C5070CD0052B082 /* LaunchScreen.xib */; };
 		A5B807811C5070CD0052B082 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B807801C5070CD0052B082 /* ___________Tests.m */; };
+		A5B8078C1C507B670052B082 /* YYConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8078B1C507B670052B082 /* YYConnectionVC.m */; };
+		A5B8078F1C507B880052B082 /* YYSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8078E1C507B880052B082 /* YYSessionVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +31,21 @@
 /* Begin PBXFileReference section */
 		A5B807611C5070CD0052B082 /* 文件下载(可断点续传).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "文件下载(可断点续传).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B807651C5070CD0052B082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5B807661C5070CD0052B082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5B807681C5070CD0052B082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A5B807691C5070CD0052B082 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5B8076B1C5070CD0052B082 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5B8076C1C5070CD0052B082 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5B807661C5070CD0052B082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A5B807681C5070CD0052B082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A5B807691C5070CD0052B082 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A5B8076B1C5070CD0052B082 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A5B8076C1C5070CD0052B082 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A5B8076F1C5070CD0052B082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5B807711C5070CD0052B082 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5B807741C5070CD0052B082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A5B8077A1C5070CD0052B082 /* 文件下载(可断点续传)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "文件下载(可断点续传)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B8077F1C5070CD0052B082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5B807801C5070CD0052B082 /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+		A5B807801C5070CD0052B082 /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "___________Tests.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A5B8078A1C507B670052B082 /* YYConnectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YYConnectionVC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A5B8078B1C507B670052B082 /* YYConnectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YYConnectionVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A5B8078D1C507B880052B082 /* YYSessionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YYSessionVC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A5B8078E1C507B880052B082 /* YYSessionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YYSessionVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				A5B807691C5070CD0052B082 /* AppDelegate.m */,
 				A5B8076B1C5070CD0052B082 /* ViewController.h */,
 				A5B8076C1C5070CD0052B082 /* ViewController.m */,
+				A5B8078A1C507B670052B082 /* YYConnectionVC.h */,
+				A5B8078B1C507B670052B082 /* YYConnectionVC.m */,
+				A5B8078D1C507B880052B082 /* YYSessionVC.h */,
+				A5B8078E1C507B880052B082 /* YYSessionVC.m */,
 				A5B8076E1C5070CD0052B082 /* Main.storyboard */,
 				A5B807711C5070CD0052B082 /* Images.xcassets */,
 				A5B807731C5070CD0052B082 /* LaunchScreen.xib */,
@@ -221,6 +231,8 @@
 			files = (
 				A5B8076D1C5070CD0052B082 /* ViewController.m in Sources */,
 				A5B8076A1C5070CD0052B082 /* AppDelegate.m in Sources */,
+				A5B8078C1C507B670052B082 /* YYConnectionVC.m in Sources */,
+				A5B8078F1C507B880052B082 /* YYSessionVC.m in Sources */,
 				A5B807671C5070CD0052B082 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
